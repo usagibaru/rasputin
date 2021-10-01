@@ -48,7 +48,7 @@ afterEvaluate{
                 from components.release
                 groupId='com.usagibaru'
                 artifactId='rasputin'
-                version='1.0.6'
+                version='1.0.10'
             }
         }
     }
