@@ -63,7 +63,7 @@ afterEvaluate {
 
                 groupId = 'com.usagibaru'
                 artifactId = 'rasputin-debug'
-                version = '1.0.3'
+                version = '1.0.4'
             }
         }
     }
