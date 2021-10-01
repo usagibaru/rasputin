@@ -1,4 +1,6 @@
 jdk:
   - openjdk11
 install:
-  - ./gradlew build :lib:publishToMavenLocal
+ - ./gradlew :rasputin:build :rasputin:publishToMavenLocal -x :rasputin:test
+ - find . -name "*.aar"
+  
